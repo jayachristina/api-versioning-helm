@@ -43,7 +43,6 @@ recommendationEngine:
   getRecommendedProductsPath: /score/product 
 orderPlacementService:
   name: order-placement-v2-0
-  url: http://order-placement-v2-0:8080
   postOrderPath: /placeorder
 
 apim:

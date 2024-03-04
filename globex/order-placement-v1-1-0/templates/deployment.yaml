@@ -4,6 +4,7 @@ metadata:
   name: {{ include "order-placement.name" . }}
   labels:
     {{- include "order-placement.labels" . | nindent 4 }}
+    app.kubernetes.io/part-of: v1-1
     app.openshift.io/runtime: quarkus
 spec:
   replicas: {{ .Values.replicaCount }}
