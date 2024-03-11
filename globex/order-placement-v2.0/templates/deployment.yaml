@@ -27,7 +27,7 @@ spec:
               protocol: TCP
           env: 
             - name: JSON_SCHEMA
-              value: order-placement-payload_v2.0.json
+              value: order-placement-payload.json
             - name: ORDER_PLACEMENT_API
               value: <replace-me-with-webhook.site-url>
           livenessProbe:

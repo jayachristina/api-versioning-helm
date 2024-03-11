@@ -46,6 +46,6 @@ orderPlacementService:
   postOrderPath: /placeorder
 
 apim:
-  flag: '"Y"'
+  flag: '"YES"'
   user_key: user_key
   user_key_value: <replace-me>
