@@ -36,5 +36,5 @@ spec:
       setupFee: "100"
       published: true
   backendUsages:
-    globex-globex-backend:
+    globex-order-placement-backend:
       path: /v1
