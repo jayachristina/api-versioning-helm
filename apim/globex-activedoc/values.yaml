@@ -10,4 +10,6 @@ activedoc:
 
 product:
   systemName: globex-order-placement-product
-  
+
+activeDocOpenAPIRef:
+  url: "https://raw.githubusercontent.com/rh-soln-pattern-api-versioning/api-spec/main/v1.0/OrderPlacementAPI-V1.0.yaml"

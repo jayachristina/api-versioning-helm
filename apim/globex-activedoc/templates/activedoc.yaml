@@ -6,8 +6,7 @@ metadata:
     {{- include "globex-activedoc.argocd-syncwave" . | nindent 4 }}
 spec:
   activeDocOpenAPIRef:
-    secretRef:
-      url: "https://raw.githubusercontent.com/rh-soln-pattern-api-versioning/api-spec/main/v1.0/OrderPlacementAPI-V1.0.yaml"
+    url: {{ .Values.activeDocOpenAPIRef.url }}
   published: true
   name: {{ .Values.activedoc.name }}
   providerAccountRef:
