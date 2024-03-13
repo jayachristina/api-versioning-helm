@@ -9,6 +9,6 @@ spec:
     name: globex-developeraccount
   applicationPlanName: basic
   description: Basic Plan
-  name: basic-plan
+  name: basic
   productCR:
     name: globex-order-placement-product
