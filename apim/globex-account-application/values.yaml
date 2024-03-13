@@ -1,4 +1,4 @@
-nameOverride: "mobile-basic-plan"
+nameOverride: "basic-plan"
 
 productCR: 
   name: globex-order-placement-product

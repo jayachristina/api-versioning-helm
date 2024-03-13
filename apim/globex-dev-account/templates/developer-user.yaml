@@ -2,17 +2,17 @@
 apiVersion: capabilities.3scale.net/v1beta1
 kind: DeveloperUser
 metadata:
-  name: admin.mobile
+  name: admin.globex
   annotations:
-    {{- include "mobile-dev-account.developeruser.argocd-syncwave" . | nindent 4 }}
+    {{- include "globex-dev-account.developeruser.argocd-syncwave" . | nindent 4 }}
 spec:
-  username: admin.mobile
-  email: admin@mobile.com
+  username: admin.globex
+  email: admin@globex.com
   passwordCredentialsRef:
-    name: mobileuser.secret
+    name: globexuser.secret
   role: admin
   developerAccountRef:
-    name: mobile-developeraccount
+    name: globex-developeraccount
   providerAccountRef:
     name: 3scale-tenant-secret
 
@@ -20,16 +20,16 @@ spec:
 apiVersion: capabilities.3scale.net/v1beta1
 kind: DeveloperUser
 metadata:
-  name: dev.mobile
+  name: dev.globex
   annotations:
-    {{- include "mobile-dev-account.developeruser.argocd-syncwave" . | nindent 4 }}
+    {{- include "globex-dev-account.developeruser.argocd-syncwave" . | nindent 4 }}
 spec:
-  username: dev.mobile
+  username: dev.globex
   email: dev@globex.com
   passwordCredentialsRef:
-    name: mobileuser.secret
+    name: globexuser.secret
   role: member
   developerAccountRef:
-    name: mobile-developeraccount
+    name: globex-developeraccount
   providerAccountRef:
     name: 3scale-tenant-secret
