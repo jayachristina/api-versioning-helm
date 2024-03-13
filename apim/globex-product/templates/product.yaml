@@ -32,6 +32,10 @@ spec:
       pattern: "/{version}"
       increment: 1
       metricMethodRef: hits    
+    - httpMethod: POST
+      pattern: "/{song}"
+      increment: 1
+      metricMethodRef: hits    
   applicationPlans:
     basic:
       name: "Basic Plan"
