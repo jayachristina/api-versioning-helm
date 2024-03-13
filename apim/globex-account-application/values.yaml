@@ -1,0 +1,8 @@
+nameOverride: "mobile-basic-plan"
+
+productCR: 
+  name: globex-globex-product
+
+argocd:
+  enabled: true
+  syncwave: "3"

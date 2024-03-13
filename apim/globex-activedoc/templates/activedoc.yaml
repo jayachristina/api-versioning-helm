@@ -1,0 +1,16 @@
+apiVersion: capabilities.3scale.net/v1beta1
+kind: ActiveDoc
+metadata:
+  name: {{ include "globex-activedoc.name" . }}
+  annotations:
+    {{- include "globex-activedoc.argocd-syncwave" . | nindent 4 }}
+spec:
+  activeDocOpenAPIRef:
+    secretRef:
+      url: "https://raw.githubusercontent.com/rh-soln-pattern-api-versioning/api-spec/main/v1.0/OrderPlacementAPI-V1.0.yaml"
+  published: true
+  name: {{ .Values.activedoc.name }}
+  providerAccountRef:
+    name: 3scale-tenant-secret
+  productSystemName: {{ .Values.product.systemName }}
+  
