@@ -17,8 +17,6 @@ spec:
   methods:
     v1_0_0:
       friendlyName: Method  version 1.0.0
-    v2_0_0:
-      friendlyName: Method  version 2.0.0
     order_placement:
       friendlyName: Order Placement API
   mappingRules:
@@ -29,7 +27,7 @@ spec:
     - httpMethod: POST
       pattern: "/{version}"
       increment: 1
-      metricMethodRef: Order Placement API    
+      metricMethodRef: order_placement
   applicationPlans:
     basic:
       name: "Basic Plan"
