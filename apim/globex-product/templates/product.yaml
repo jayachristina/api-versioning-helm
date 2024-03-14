@@ -27,7 +27,7 @@ spec:
     - httpMethod: POST
       pattern: "/{version}"
       increment: 1
-      metricMethodRef: Order Placement API    
+      metricMethodRef: order_placement
   applicationPlans:
     basic:
       name: "Basic Plan"

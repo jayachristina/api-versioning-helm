@@ -11,4 +11,4 @@ spec:
   description: Basic Plan
   name: basic
   productCR:
-    name: globex-order-placement-product
+    name: globex-product
