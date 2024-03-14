@@ -1,6 +1,0 @@
-nameOverride: "globex-basic-app"
-
-
-argocd:
-  enabled: true
-  syncwave: "3"
