@@ -14,3 +14,24 @@ dependencies:
   - name: threescale-tenant-secret
     version: 0.1.0
     repository: file://threescale-tenant-secret
+  - name: globex-activedoc
+    version: 0.1.0
+    repository: file://globex-activedoc
+  - name: globex-activedoc-1-1-0
+    version: 0.1.0
+    repository: file://globex-activedoc-1-1-0
+  - name: globex-backend
+    version: 0.1.0
+    repository: file://globex-backend
+  - name: globex-backend-1-1-0
+    version: 0.1.0
+    repository: file://globex-backend-1-1-0
+  - name: globex-product
+    version: 0.1.0
+    repository: file://globex-product
+  - name: globex-account-application
+    version: 0.1.0
+    repository: file://globex-account-application
+  - name: globex-dev-account
+    version: 0.1.0
+    repository: file://globex-dev-account  
